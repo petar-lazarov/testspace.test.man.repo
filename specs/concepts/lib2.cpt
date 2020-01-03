@@ -1,0 +1,25 @@
+
+# Share <this> ok
+
+* One <this>
+* Two <this> is still working
+* But Not here
+* Ok <this>
+
+
+# Share TWO <this> <that>
+
+* One <that>
+* Two <this>
+
+# Share Table <with>
+
+ * <with>
+ * sub-bullets
+   * <with> showing table below
+
+     ONE | TWO
+   ----- | ---
+   cell 1 | cell 2 and <with>
+   cell 3 <with> | cell 4
+   
