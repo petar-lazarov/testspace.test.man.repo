@@ -1497,13 +1497,13 @@ async function run() {
     });
     console.log("simpleIssue")
      
-    const { data: testSpecChange } = await octokit.issues.create({
+    const { data: testCommits } = await octokit.issues.create({
       owner: orgName,
       repo:  repoName,
-      title: 'Test Spec Change',
-      body:  'Used for Spec Change testing \n<pre>testspace:\n  branch: master \n  specs: \n    path: test.spec.change\n </pre>'
+      title: 'Test Commits',
+      body:  'Used for Spec Change testing \n<pre>testspace:\n  branch: master \n  specs: \n    path: test.commits\n </pre>'
     });
-    console.log("testSpecChange")
+    console.log("testCommits")
 
     const { data: testCards } = await octokit.issues.create({
       owner: orgName,
