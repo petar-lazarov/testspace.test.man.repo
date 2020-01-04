@@ -1,0 +1,27 @@
+{
+  "name": "testspace.test.repo",
+  "version": "1.0.0",
+  "description": "[![Testspace](https://www.testspace.com/img/Testspace.png)](https://www.testspace.com)",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/s2technologies/testspace.test.repo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/s2technologies/testspace.test.repo/issues"
+  },
+  "homepage": "https://github.com/s2technologies/testspace.test.repo#readme",
+  "dependencies": {
+    "@actions/core": "^1.2.0",
+    "@actions/github": "^2.0.0"
+  }
+}

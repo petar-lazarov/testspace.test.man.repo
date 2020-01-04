@@ -37,7 +37,7 @@ testspace:
 </pre>
 
 ## Examples
-
+ 
 Example for `.testspace.yml` using on release branches. 
 
 <pre>

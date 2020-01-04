@@ -1,0 +1,17 @@
+name: 'Teardown Test Repo'
+description: 'Delete Test Repo'
+inputs:
+  gh-org:  
+    description: 'GitHub orgination to use'
+    required: true
+    default: 'stridespace'
+  gh-repo-name:  
+    description: 'New Repo name to create'
+    required: true
+    default: 'testRepo'
+  gh-token: 
+    description: 'GH Admin access'
+    required: true
+runs:
+  using: 'node12'
+  main: 'dist/index.js'

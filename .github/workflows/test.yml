@@ -1,0 +1,16 @@
+name: test-fixturing
+on: 
+  push
+jobs:
+  test-repo:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+      - name: Test Repo Setup
+        uses: ./actions/setup
+        with:
+          gh-token: ${{ secrets.GH_TESTSPACE_TEST_REPO }}
+      - name: Test Repo Teardown
+        uses: ./actions/teardown
+        with:
+          gh-token: ${{ secrets.GH_TESTSPACE_TEST_REPO }}
