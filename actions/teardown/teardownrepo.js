@@ -7,7 +7,7 @@ async function run() {
       console.log("Teardown script running ..")
 
       orgName  = core.getInput('gh-org');
-      repoName = core.getInput('gh-repo-name');
+      repoName = core.getInput('gh-repo');
       ghToken  = core.getInput('gh-token');
       
       // orgName  = 'stridespace'; 

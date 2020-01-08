@@ -15,7 +15,7 @@ gh_token = os.getenv('GH_Admin')
 
 input = {
   "event_type": "dispatch",
-  "client_payload": {"repo-name": "default", "param2": "tbd"}
+  "client_payload": {"param1": "tbd", "param2": "tbd"}
 }
 
 def main():

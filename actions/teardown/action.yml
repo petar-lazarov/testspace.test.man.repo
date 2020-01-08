@@ -5,7 +5,7 @@ inputs:
     description: 'GitHub orgination to use'
     required: true
     default: 'stridespace'
-  gh-repo-name:  
+  gh-repo:  
     description: 'New Repo name to create'
     required: true
     default: 'testRepo'
