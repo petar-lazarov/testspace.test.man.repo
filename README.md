@@ -59,4 +59,23 @@ testspace:
     path: simple
 </pre>
  
+## Updating Repo
+To make changes requires a local installation of `node_modules`.  
+
+<pre>
+npm init -y
+npm install @actions/core
+npm install @actions/core
+</pre>
+
+Also **dist** updates `before` pushing:
+
+<pre>
+cd actions/setup
+ncc build setuprepo.js
+cd ../teardown
+ncc build teardownrepo.js
+cd ../..
+</pre>
+
 
