@@ -4,7 +4,7 @@ manual:
   branches:
     only:
       - master
-      - ".*_release"
+      - /.*_release/
     ignore:
       - "3_release"
       - "4_release"
