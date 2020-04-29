@@ -15,7 +15,7 @@ setup:
 
 # Basic One Suite
 
-This is a generic Spec header (Aka `Suite`). The following text is descriptional, and can
+This is a generic Spec headers (Aka `Suite`). The following text is descriptional, and can
 contain general markdown syntax. 
 
 
