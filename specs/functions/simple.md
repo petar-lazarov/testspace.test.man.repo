@@ -1,5 +1,5 @@
 ---
-setup:
+before:
   name: aws:east-2:uiSetup
   description: 'Blah-blah setup presentation entities blah-blah.'
   input: >
@@ -11,6 +11,19 @@ setup:
     sessions: "@master.json"
    }
   timeout: 120
+after:
+  name: aws:east-2:uiSetup
+  description: 'Blah-blah setup presentation entities blah-blah.'
+  input: >
+   {
+    repo: "testProjectConfig",
+    templateOrgRepoBranch: "master",
+    issues: [],
+    cycles: ["cycle1", "cycle2", "cycle3"],
+    sessions: "@master.json"
+   }
+  timeout: 60
+
 ---
 
 # Basic One Suite
