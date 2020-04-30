@@ -28,7 +28,7 @@ after:
 
 # Basic One Suite
 
-This is a generic Spec headers (Aka `Suite`). The following text is descriptional, and can
+aThis is a generic Spec headers (Aka `Suite`). The following text is descriptional, and can
 contain general markdown syntax. 
 
 
